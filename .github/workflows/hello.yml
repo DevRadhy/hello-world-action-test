@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello World action step
         id: hello
-        uses: DevRadhy/hello-world-javascript-action@v1.1
+        uses: DevRadhy/hello-world-javascript-action@v1.0
         with:
           who-to-greet: 'John Doe'
       
