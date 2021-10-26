@@ -6,7 +6,8 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello World action step
-        use: DevRadhy/hello-world-javascript-action@v1.0.0
+        id: hello
+        uses: DevRadhy/hello-world-javascript-action@v1.0.0
         with:
           who-to-greet: 'John Doe'
       
